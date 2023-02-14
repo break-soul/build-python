@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+import os
+import sys
+
+# define
+PKG_NAME = "python"
+
+
+def build(version):
+    shell = f"rpmbuild --load={os.getcwd()}/.rpmmacros -bb SPECS/{PKG_NAME}{version}.spec > logs/{version}.log"
+    os.system(shell)
+
+if __name__ == "__main__":
+    build(*sys.argv[1:])

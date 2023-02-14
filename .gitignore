@@ -1,0 +1,8 @@
+BUILD/
+BUILDROOT/
+logs/
+RPMS/
+SOURCES/
+SRPMS/
+
+.rpmmacros
