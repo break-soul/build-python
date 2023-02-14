@@ -3,5 +3,5 @@ self build python
 
 use 
 '''shell
-build version
+  build version
 '''
