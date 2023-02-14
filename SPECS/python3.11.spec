@@ -24,6 +24,7 @@ BuildRequires:libnsl
 BuildRequires:ncurses-devel
 BuildRequires:bzip2-devel
 BuildRequires:readline-devel
+BuildRequires:libnsl2-devel
 
 %description
 self build python%{python3_version} rpm
