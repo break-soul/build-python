@@ -15,15 +15,55 @@ Source0:  Python-%{version}.tar.xz
 
 AutoReqProv: no
 
-BuildRequires:gcc
-BuildRequires:cmake
-BuildRequires:libffi-devel
-BuildRequires:tk-devel
-BuildRequires:libnsl
-BuildRequires:ncurses-devel
-BuildRequires:bzip2-devel
-BuildRequires:readline-devel
-BuildRequires:libnsl2-devel
+BuildRequires: autoconf
+BuildRequires: bluez-libs-devel
+BuildRequires: bzip2
+BuildRequires: bzip2-devel
+BuildRequires: desktop-file-utils
+BuildRequires: expat-devel
+ 
+BuildRequires: findutils
+BuildRequires: gcc-c++
+BuildRequires: gdbm-devel
+
+BuildRequires: git-core
+BuildRequires: glibc-all-langpacks
+BuildRequires: glibc-devel
+BuildRequires: gmp-devel
+BuildRequires: gnupg2
+BuildRequires: libappstream-glib
+BuildRequires: libb2-devel
+BuildRequires: libffi-devel
+BuildRequires: libnsl2-devel
+BuildRequires: libtirpc-devel
+BuildRequires: libGL-devel
+BuildRequires: libuuid-devel
+BuildRequires: libX11-devel
+BuildRequires: make
+BuildRequires: mpdecimal-devel
+BuildRequires: ncurses-devel
+ 
+BuildRequires: openssl-devel
+BuildRequires: pkgconfig
+BuildRequires: readline-devel
+BuildRequires: redhat-rpm-config >= 127
+BuildRequires: sqlite-devel
+BuildRequires: gdb
+ 
+BuildRequires: tar
+BuildRequires: tcl-devel
+BuildRequires: tix-devel
+BuildRequires: tk-devel
+BuildRequires: tzdata
+
+BuildRequires: xz-devel
+BuildRequires: zlib-devel
+
+BuildRequires: systemtap-sdt-devel
+
+BuildRequires: net-tools
+
+BuildRequires: python3-rpm-generators
 
 %description
 self build python%{python3_version} rpm
