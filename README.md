@@ -2,6 +2,6 @@
 self build python
 
 use 
-  '''shell
-    build version
-  '''
+    '''shell
+      build version
+    '''
